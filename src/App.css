@@ -1,0 +1,8 @@
+.fixed-card {
+  height: 35rem;
+}
+
+.card-image {
+  height: 200px !important;
+  object-fit: cover;
+}
