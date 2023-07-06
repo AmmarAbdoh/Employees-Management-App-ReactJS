@@ -28,15 +28,15 @@ function IdentityCard({ info }) {
           </Card.Body>
         </Card>
       ) : (
-        <Card className="bg-danger text-white text-center fixed-card">
+        <Card className="text-white text-center fixed-card card2-bg card-text">
           {renderImage()}
           <Card.Body>
             <Card.Title>
-              <h2>{name}</h2>
+                <p className="fs-4 font-size-xs font-size-md">{name}</p>
             </Card.Title>
             <Card.Text>
-              <p className="fs-3">{position}</p>
-              <p className="fs-5">Email : {email}</p>
+                <p className="fs-5 font-size-xs font-size-md">{position}</p>
+                <p className="fs-6 font-size-xs font-size-md">Email : {email}</p>
             </Card.Text>
           </Card.Body>
         </Card>
