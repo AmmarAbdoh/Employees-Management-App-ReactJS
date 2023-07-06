@@ -74,7 +74,7 @@ function App() {
       >
         <Container>
           <h1 className="text-center mb-5 text-white fw-bold">
-            Employees Form
+            Adding Employees Form
           </h1>
           <Row className="justify-content-center">
             <Col xs={12} sm={8} md={6} lg={4}>
@@ -142,7 +142,7 @@ function App() {
         </Container>
       </Container>
 
-      <Container className="mx-auto">
+      <Container className="mx-auto employees-bg">
         {employees.length > 0 && (
           <h1
             className="text-center fw-bold mt-4 mb-3"

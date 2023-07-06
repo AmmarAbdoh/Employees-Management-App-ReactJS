@@ -14,16 +14,16 @@ function IdentityCard({ info }) {
   return (
     <div>
       {phone ? (
-        <Card className="bg-primary text-white text-center fixed-card">
+        <Card className="text-white text-center fixed-card card-bg card-text">
           {renderImage()}
           <Card.Body>
             <Card.Title>
-              <p className="fs-3 font-size-xs font-size-md">{name}</p>
+              <p className="fs-4 font-size-xs font-size-md">{name}</p>
             </Card.Title>
             <Card.Text>
-              <p className="fs-3 font-size-xs font-size-md">{position}</p>
-              <p className="fs-5 font-size-xs font-size-md">Phone : {phone}</p>
-              <p className="fs-5 font-size-xs font-size-md">Email : {email}</p>
+              <p className="fs-5 font-size-xs font-size-md">{position}</p>
+              <p className="fs-6 font-size-xs font-size-md">Phone : {phone}</p>
+              <p className="fs-6 font-size-xs font-size-md">Email : {email}</p>
             </Card.Text>
           </Card.Body>
         </Card>

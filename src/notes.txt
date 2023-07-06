@@ -1,0 +1,8 @@
+Refactor the code / make (Form componenet, employee list, etc...) each in a separate file 
+make name bold
+make name the same colour as the other info
+make position bold
+fix employees list background
+add delete button
+
+Excellent work dude !
