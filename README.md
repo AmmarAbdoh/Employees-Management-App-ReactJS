@@ -1,4 +1,4 @@
-# How to run Employees Management 
+# How to run Employees Management App
 
 Follow these steps to run my application on your local machine:
 
