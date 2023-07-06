@@ -30,7 +30,7 @@ function IdentityCard({ info }) {
           </Card.Body>
         </Card>
       ) : (
-        <Card className="bg-primary text-center fixed-card card-text">
+        <Card className="text-center fixed-card card2-bg card-text">
           {renderImage()}
           <Card.Body>
             <Card.Title>
