@@ -1,6 +1,6 @@
-# Running a Vite React Project
+# How to run Employees Management 
 
-Follow these steps to run a Vite React project on your local machine:
+Follow these steps to run my application on your local machine:
 
 1. **Install Node.js**: Ensure that you have Node.js installed on your machine. You can download it from the official Node.js website: [nodejs.org](https://nodejs.org).
 
@@ -18,8 +18,6 @@ Follow these steps to run a Vite React project on your local machine:
    ```bash
    npm run dev
 
-4. **Open the application**: By default, the development server should start at http://localhost:3000 (it may be different) . Open your web browser and navigate to this URL to view your Vite React application.
-
-That's it! You have successfully set up and run the Vite React project. Feel free to make changes to the code and build your application.
+5. **Open the application**: By default, the development server should start at http://localhost:3000 (it may be different) . Open your web browser and navigate to this URL to view your Vite React application.
 
 Let me know if you need any further assistance!
