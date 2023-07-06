@@ -40,7 +40,6 @@ function IdentityCard({ info }) {
               <p className="fs-5 font-size-xs font-size-md fw-bold">
                 {position}
               </p>
-              <p className="fs-6 font-size-xs font-size-md">Phone : {phone}</p>
               <p className="fs-6 font-size-xs font-size-md">Email : {email}</p>
             </Card.Text>
           </Card.Body>
