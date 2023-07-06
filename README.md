@@ -1,4 +1,4 @@
-# How to run Employees Management App
+# How to run the Employees Management App (React Vite Application)
 
 Follow these steps to run my application on your local machine:
 
@@ -18,6 +18,6 @@ Follow these steps to run my application on your local machine:
    ```bash
    npm run dev
 
-5. **Open the application**: By default, the development server should start at http://localhost:3000 (it may be different) . Open your web browser and navigate to this URL to view your Vite React application.
+5. **Open the application**: By default, the development server should start at http://localhost:3000 (it may be different) . Open your web browser and navigate to this URL to view my application.
 
 Let me know if you need any further assistance!
