@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <MyForm employees={employees} setEmployees={setEmployees} />
-      <EmployeeList employees={employees} />
+      <EmployeeList employees={employees} setEmployees={setEmployees} />
     </>
   );
 }

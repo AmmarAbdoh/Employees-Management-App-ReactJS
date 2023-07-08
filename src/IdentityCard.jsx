@@ -1,14 +1,18 @@
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
-function IdentityCard({ info }) {
-  const { name, position, email, phone, img } = info;
-
+function IdentityCard(props) {
+  const { id, name, position, email, phone, img } = props.employee;
   const renderImage = () => {
     if (img) {
       return <Card.Img src={img} alt="EMPLOYEE" className="card-image" />;
     }
     return null;
+  };
+
+  const deleteCard = (id) => {
+    let newEmployee = props.employees.filter((card) => card.id !== id);
+    props.setEmployees(newEmployee);
   };
 
   return (
@@ -27,6 +31,13 @@ function IdentityCard({ info }) {
               <p className="fs-6 font-size-xs font-size-md">Phone : {phone}</p>
               <p className="fs-6 font-size-xs font-size-md">Email : {email}</p>
             </Card.Text>
+            <Button
+              style={{ backgroundColor: "#4191fc" }}
+              onClick={() => deleteCard(id)}
+              className="fw-bold"
+            >
+              Remove Card
+            </Button>
           </Card.Body>
         </Card>
       ) : (
@@ -41,7 +52,15 @@ function IdentityCard({ info }) {
                 {position}
               </p>
               <p className="fs-6 font-size-xs font-size-md">Email : {email}</p>
+              <p className="fs-6 font-size-xs font-size-md">&nbsp;</p>
             </Card.Text>
+            <Button
+              style={{ backgroundColor: "#b5d3e1" }}
+              onClick={() => deleteCard(id)}
+              className="fw-bold"
+            >
+              Remove Card
+            </Button>
           </Card.Body>
         </Card>
       )}

@@ -24,7 +24,11 @@ function EmployeeList(props) {
       <Row className="justify-content-center">
         {props.employees.map((employee) => (
           <Col {...columnSizes} key={employee.id}>
-            <IdentityCard info={employee} />
+            <IdentityCard
+              employee={employee}
+              setEmployees={props.setEmployees}
+              employees={props.employees}
+            />
           </Col>
         ))}
       </Row>
