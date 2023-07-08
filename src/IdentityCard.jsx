@@ -10,11 +10,11 @@ function IdentityCard(props) {
     return null;
   };
 
-  const deleteCard = (id) => {
-    let newEmployee = props.employees.filter((card) => card.id !== id);
-    props.setEmployees(newEmployee);
+  const deleteCard = () => {
+    const newEmployees = props.employees.filter((card) => card.id !== id);
+    props.setEmployees(newEmployees);
   };
-
+        
   const cardBgClassName = phone ? "card-bg" : "card2-bg";
 
   return (
